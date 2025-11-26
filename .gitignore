@@ -1,0 +1,31 @@
+# Rust/Cargo
+/target
+**/target/
+Cargo.lock
+
+# Dioxus build artifacts
+/dist
+/dx
+**/dx/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+**/*.rs.bk
+*.bak
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
